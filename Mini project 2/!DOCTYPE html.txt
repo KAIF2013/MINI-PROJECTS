@@ -33,25 +33,36 @@
     </div>
   </header>
 
-  <!-- About Me Section -->
-  <section id="about" class="about-section">
-    <div class="container">
-      <h2>About Me</h2>
-      <div class="row align-items-center">
-        <div class="col-md-4 text-center">
-          <img src="c:\Users\Mohammad Kaif\Desktop\1708281581884.jpg" alt="Your Photo" class="profile-photo">
-        </div>
-        <div class="col-md-8">
-          <p>MY NAME IS MD KAIF AND I WORKED FOR META SCIFOR AND SKILLS ARE -:</p>
-          <ul>
-            <li>HTML/CSS/JavaScript</li>
-            <li>Python/SQL</li>
-            <li>Bootstrap</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-text">
+                <h1 class="my-heading">About Me</h1>
+                <p class="lead-para">
+                    My Name Is MD Kaif And I Worked For Meta Scifor.And I Have completed My B.tech(CSE)
+                    From iimt College Of Engineering,Greater Noida.And As a Passionate in My Field.
+                    I bring a creative and results-oriented approach to every project.My expertise lies in 
+                    [list key skills], allowing me to deliver impactful solutions that align with client needs.
+                    I thrive on collaborating with diverse teams to bring innovative ideas to life. 
+                    Explore my portfolio to see how I can contribute to your next project.
+                </p>
+                <h2>Skills</h2>
+                <p>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>BOOTSTRAP</li>
+                    <li>SQL</li>
+                    <li>PYTHON</li>
+                  </ul>
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="c:\Users\Mohammad Kaif\Desktop\images.png"
+                alt="About Image">
+            </div>
+        </section>
+    
 
   <!-- Projects Section -->
   <section id="projects" class="projects-section">
@@ -61,7 +72,7 @@
         <div class="col-md-4 project">
           <div class="project-card">
             <h3>Project 1</h3>
-            <p>Virtual coffe machine made by python</p>
+            <p>Virtaul Coffee Machine</p>
           </div>
         </div>
         <div class="col-md-4 project">
